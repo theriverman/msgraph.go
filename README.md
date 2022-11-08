@@ -1,10 +1,10 @@
 msgraph.go
 ----
-[![](https://github.com/yaegashi/msgraph.go/workflows/go%20generate%20test/badge.svg?branch=master)](https://github.com/yaegashi/msgraph.go/actions)
+[![](https://github.com/theriverman/msgraph.go/workflows/go%20generate%20test/badge.svg?branch=master)](https://github.com/theriverman/msgraph.go/actions)
 
 |v1.0|beta|
 |---|---|
-|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/yaegashi/msgraph.go/v1.0)](https://pkg.go.dev/github.com/yaegashi/msgraph.go/v1.0)|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/yaegashi/msgraph.go/beta)](https://pkg.go.dev/github.com/yaegashi/msgraph.go/beta)|
+|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/theriverman/msgraph.go/v1.0)](https://pkg.go.dev/github.com/theriverman/msgraph.go/v1.0)|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/theriverman/msgraph.go/beta)](https://pkg.go.dev/github.com/theriverman/msgraph.go/beta)|
 
 (The online references at pkg.go.dev above are not shown due to huge size of packages - [#23](https://github.com/yaegashi/msgraph.go/issues/23))
 
@@ -27,26 +27,16 @@ The code generator is written in pure Go,
 in contrast to [the official code generator][Microsoft Graph SDK Code Generator]
 heavily relying on C# and non-portable .NET Framework.
 
-## v0.x.x releases
-
-See [GitHub releases](https://github.com/yaegashi/msgraph.go/releases)
-for all release tags and release notes,
-and [pkg.go.dev](https://pkg.go.dev/mod/github.com/yaegashi/msgraph.go)
-for all Go module versions available for your applications.
-
-Until v1.0.0, all types of changes might be included in every release:
-bug fixes, new features, even incompatible API updates.
-
 ## Usage
 
 You can choose API version when importing `msgraph` package:
 
 ```go
-import msgraph "github.com/yaegashi/msgraph.go/v1.0"
+import msgraph "github.com/theriverman/msgraph.go/v1.0"
 ```
 
 ```go
-import msgraph "github.com/yaegashi/msgraph.go/beta"
+import msgraph "github.com/theriverman/msgraph.go/beta"
 ```
 
 You could benefit from better IDE assisted coding experience
