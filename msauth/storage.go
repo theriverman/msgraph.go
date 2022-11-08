@@ -1,13 +1,8 @@
 package msauth
 
 import (
-	"bytes"
-	"fmt"
 	"io/ioutil"
-	"net/http"
-	"net/url"
 	"os"
-	"strings"
 )
 
 // ReadLocation reads data from file

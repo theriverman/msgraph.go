@@ -6,7 +6,7 @@ msgraph.go
 |---|---|
 |[![pkg.go.dev](https://pkg.go.dev/badge/github.com/theriverman/msgraph.go/v1.0)](https://pkg.go.dev/github.com/theriverman/msgraph.go/v1.0)|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/theriverman/msgraph.go/beta)](https://pkg.go.dev/github.com/theriverman/msgraph.go/beta)|
 
-(The online references at pkg.go.dev above are not shown due to huge size of packages - [#23](https://github.com/yaegashi/msgraph.go/issues/23))
+(The online references at pkg.go.dev above are not shown due to huge size of packages - [#23](https://github.com/theriverman/msgraph.go/issues/23))
 
 # ATTENTION
 This is a custom fork with local file support only.
@@ -76,7 +76,7 @@ $ go generate ./gen
 2020/08/02 19:47:07 Formatting ../v1.0/EnumReject.go
 ```
 
-(Currently code generation from the latest metadata is broken - [#22](https://github.com/yaegashi/msgraph.go/issues/22))
+(Currently code generation from the latest metadata is broken - [#22](https://github.com/theriverman/msgraph.go/issues/22))
 
 ## Todo
 
@@ -91,7 +91,7 @@ $ go generate ./gen
 - [x] Provide easy way to generate pointers to constants
 - [x] Provide easy way to add queries like `$expand` `$select` `$filter`
 - [x] Every request method should take a ctx as the first arg for better control
-- [ ] Online API docs (the output is too big for pkg.go.dev to handle - [#23](https://github.com/yaegashi/msgraph.go/issues/23))
+- [ ] Online API docs (the output is too big for pkg.go.dev to handle - [#23](https://github.com/theriverman/msgraph.go/issues/23))
 - [ ] Unit tests
 - [x] CI
 - [x] Persist OAuth2 tokens in file

@@ -1,3 +1,4 @@
+//go:build templates
 // +build templates
 
 // This file is a part of msgraph.go/gen/templates.
@@ -18,7 +19,7 @@ import (
 	"time"
 
 	"github.com/rickb777/date/period"
-	"github.com/yaegashi/msgraph.go/jsonx"
+	"github.com/theriverman/msgraph.go/jsonx"
 )
 
 // BEGIN - everything below this line will be copied to the output
