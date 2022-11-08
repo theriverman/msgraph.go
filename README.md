@@ -1,5 +1,5 @@
-# msgraph.go
-
+msgraph.go
+----
 [![](https://github.com/yaegashi/msgraph.go/workflows/go%20generate%20test/badge.svg?branch=master)](https://github.com/yaegashi/msgraph.go/actions)
 
 |v1.0|beta|
@@ -7,6 +7,13 @@
 |[![pkg.go.dev](https://pkg.go.dev/badge/github.com/yaegashi/msgraph.go/v1.0)](https://pkg.go.dev/github.com/yaegashi/msgraph.go/v1.0)|[![pkg.go.dev](https://pkg.go.dev/badge/github.com/yaegashi/msgraph.go/beta)](https://pkg.go.dev/github.com/yaegashi/msgraph.go/beta)|
 
 (The online references at pkg.go.dev above are not shown due to huge size of packages - [#23](https://github.com/yaegashi/msgraph.go/issues/23))
+
+# ATTENTION
+This is a custom fork with local file support only.
+Both `ReadLocation()` and `WriteLocation()` were simplified to act as a proxy for calling `ioutil.ReadFile` and `ioutil.WriteFile`.
+The original implementation was failing on Windows when using an absolute path, and seeing that the upstream library hasn't been updated in two years, I've decided to fork it for myself.
+
+Use this fork with caution and see commit [eace58c](https://github.com/theriverman/msgraph.go/commit/eace58c275d91d07be7a01035793b519b8701211) to understand the changes in [./msauth/storage.go](./msauth/storage.go).
 
 ## Introduction
 
